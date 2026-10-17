@@ -1,0 +1,9 @@
+# Local dashboard account (salted password hash). Never commit it.
+users.json
+# Transient files from users.json's atomic writes.
+.users.json.*.tmp
+# Local credentials.
+.env
+# Frontend dependencies and build output.
+frontend/node_modules/
+frontend/dist/

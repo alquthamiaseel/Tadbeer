@@ -1,0 +1,19 @@
+/* Pulls in all of Tailwind's utility classes (Tailwind v4 style import). */
+@import "tailwindcss";
+
+/* A few global resets so the app fills the whole browser window nicely. */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+}
